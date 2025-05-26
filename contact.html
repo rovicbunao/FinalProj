@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Contact Us - Real Kicks</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f5f5f5;
+      margin: 0;
+      padding: 20px;
+    }
+
+    .contact-container {
+      max-width: 800px;
+      margin: 0 auto;
+      background: #ffffff;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    .back-btn {
+      display: inline-block;
+      margin-bottom: 20px;
+      padding: 10px 18px;
+      background-color: #3498db;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+      transition: background-color 0.3s;
+    }
+
+    .back-btn:hover {
+      background-color: #2980b9;
+    }
+
+    h1 {
+      color: #3498db;
+      margin-bottom: 20px;
+    }
+
+    .info-section {
+      margin-bottom: 25px;
+    }
+
+    .info-section h2 {
+      margin-bottom: 10px;
+      color: #333;
+      font-size: 1.2em;
+      border-bottom: 2px solid #3498db;
+      display: inline-block;
+      padding-bottom: 5px;
+    }
+
+    .info-section p {
+      margin: 8px 0;
+      color: #555;
+      font-size: 1em;
+    }
+
+    .info-item {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .info-item i {
+      color: #3498db;
+      min-width: 20px;
+    }
+
+    @media (max-width: 600px) {
+      .info-item {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="contact-container">
+    <a href="index.php" class="back-btn">← Back</a>
+
+    <h1>Contact Us</h1>
+
+    <div class="info-section">
+      <h2><i class="fas fa-envelope"></i> Email</h2>
+      <div class="info-item"><i class="fas fa-user"></i> <p>jadecamua2003@gmail.com</p></div>
+      <div class="info-item"><i class="fas fa-user"></i> <p>rovicpaguiobunao@gmail.com</p></div>
+    </div>
+
+    <div class="info-section">
+      <h2><i class="fas fa-phone"></i> Phone</h2>
+      <div class="info-item"><i class="fas fa-mobile-alt"></i> <p>+63 9503603444</p></div>
+    </div>
+
+    <div class="info-section">
+      <h2><i class="fas fa-clock"></i> Office Hours</h2>
+      <div class="info-item"><i class="far fa-calendar-alt"></i> <p>Monday to Friday: 9:00 AM – 6:00 PM</p></div>
+      <div class="info-item"><i class="far fa-calendar-alt"></i> <p>Saturday: 10:00 AM – 2:00 PM</p></div>
+      <div class="info-item"><i class="far fa-calendar-alt"></i> <p>Sunday: Closed</p></div>
+    </div>
+
+    <div class="info-section">
+      <h2><i class="fas fa-map-marker-alt"></i> Address</h2>
+      <div class="info-item"><i class="fas fa-store"></i> <p>REAL KICKS, Mojon, Malolos</p></div>
+    </div>
+  </div>
+
+</body>
+</html>
